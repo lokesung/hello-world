@@ -1,0 +1,19 @@
+git config --global user.name "lokesung"
+
+
+git config --global user.email "lokesung@gmail.com"
+
+git init
+
+git clone https://github.com/lokesung/hello-world.git
+
+git add -A
+
+git add XXX.html
+
+git commit -m "added test1.txt"
+
+git push
+
+-------
+git pull

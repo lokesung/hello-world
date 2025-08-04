@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Market - Vegetables & Fruits</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🥕</span>
+                <span class="logo-text">Fresh Market</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#vegetables" class="nav-link">Vegetables</a>
+                <a href="#fruits" class="nav-link">Fruits</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Fresh & Delicious</h1>
+            <p class="hero-subtitle">Premium vegetables and fruits delivered fresh to your door</p>
+            <button class="shop-now-btn">🛒 Shop Now</button>
+        </div>
+        <div class="hero-decoration">
+            <span class="floating-emoji">🥬</span>
+            <span class="floating-emoji">🍎</span>
+            <span class="floating-emoji">🥕</span>
+            <span class="floating-emoji">🍊</span>
+        </div>
+    </section>
+
+    <!-- Vegetables Section -->
+    <section id="vegetables" class="category-section vegetables-section">
+        <div class="container">
+            <div class="section-content">
+                <div class="section-image">
+                    <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=500&h=400&fit=crop&crop=center" alt="Fresh Vegetables" class="category-img">
+                </div>
+                <div class="section-text">
+                    <h2 class="section-title">🥬 Fresh Vegetables</h2>
+                    <p class="section-description">
+                        Discover our amazing collection of farm-fresh vegetables! From crispy lettuce to vibrant carrots, 
+                        each vegetable is hand-picked for maximum freshness and flavor. Perfect for healthy meals and delicious recipes.
+                    </p>
+                    <div class="vegetables-grid" id="vegetables-grid">
+                        <!-- Vegetables will be loaded here from Google Sheets -->
+                    </div>
+                    <button class="browse-btn vegetables-btn">Browse Vegetables 🥕</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fruits Section -->
+    <section id="fruits" class="category-section fruits-section">
+        <div class="container">
+            <div class="section-content reverse">
+                <div class="section-text">
+                    <h2 class="section-title">🍎 Sweet Fruits</h2>
+                    <p class="section-description">
+                        Indulge in our selection of the sweetest, juiciest fruits! From tropical mangoes to crisp apples, 
+                        our fruits are packed with vitamins and natural sweetness. Perfect for snacks, smoothies, and desserts.
+                    </p>
+                    <div class="fruit-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-icon">🍓</span>
+                            <span class="highlight-text">Strawberries - Bursting with vitamin C</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">🥭</span>
+                            <span class="highlight-text">Mangoes - Tropical sweetness in every bite</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">🍌</span>
+                            <span class="highlight-text">Bananas - Perfect for energy and potassium</span>
+                        </div>
+                    </div>
+                    <button class="browse-btn fruits-btn">Browse Fruits 🍎</button>
+                </div>
+                <div class="section-image">
+                    <img src="https://images.unsplash.com/photo-1619566636858-adf3ef46400b?w=500&h=400&fit=crop&crop=center" alt="Fresh Fruits" class="category-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Fresh Market. Made with ❤️ for fresh food lovers</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
